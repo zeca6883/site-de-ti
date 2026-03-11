@@ -1,72 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JC Tecnologia da Informação - Home</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC Tecnologia da Informação - Soluções em TI</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-<header>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="servicos.html">Serviços</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-</header>
-<section class="hero">
-  <h1>Desenvolvimento de Sites e Soluções em TI</h1>
-  <p>Crie seu site de alto impacto e gere resultados para o seu negócio.</p>
-  <a class="cta-button" href="contato.html">Solicitar Orçamento</a>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Sobre Nós</h2>
-    <p>Somos especialistas em desenvolvimento web, manutenção e consultoria de TI. Com anos de experiência, entregamos soluções de alta performance para empresas e profissionais.</p>
-    <a class="cta-button" href="sobre.html">Saiba mais</a>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Serviços</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Criação de Sites Premium</h3>
-        <p>Sites modernos, rápidos e responsivos focados em resultados e conversão de visitantes em clientes.</p>
-      </div>
-      <div class="card">
-        <h3>Chatbots Inteligentes</h3>
-        <p>Automção e atendimento 24/7 para otimizar leads e melhorar a experiência do cliente.</p>
-      </div>
-      <div class="card">
-        <h3>Suporte Técnico Especializado</h3>
-        <p>Configuração, manutenção de redes e suporte personalizado para garantir a estabilidade da sua infraestrutura.</p>
-      </div>
-      <div class="card">
-        <h3>Consultoria em TI</h3>
-        <p>Análise de infraestrutura e apoio estratégico na tomada de decisões tecnológicas.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Depoimentos</h2>
-    <div class="cards">
-      <div class="card">
-        <p>"A JC T.I transformou nossa presença online. O site ficou profissional, moderno e já nos trouxe novos clientes na primeira semana."</p>
-        <p><strong>- Dr. Ricardo Alves</strong></p>
-      </div>
-      <div class="card">
-        <p>"O suporte técnico resolveu meu problema remotamente em poucas horas. Serviço cinco estrelas!"</p>
-        <p><strong>- Marcos Lima</strong></p>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <p>&copy; 2026 JC Tecnologia da Informação. Todos os direitos reservados.</p>
-</footer>
+    <header>
+        <div class="container">
+            <h1 class="logo">JC Tecnologia</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="menu-toggle">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Soluções em TI que Potencializam o Seu Negócio</h2>
+                <p>Nós criamos sites de alto impacto, desenvolvemos chatbots inteligentes, prestamos suporte técnico e consultoria completa em tecnologia.</p>
+                <a href="contato.html" class="btn-primary">Solicite um Orçamento</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="section about reveal">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Somos especialistas em TI com anos de experiência em desenvolvimento web, integração de sistemas e consultoria tecnológica. Nosso objetivo é oferecer soluções completas que gerem resultado e valor para o seu negócio.</p>
+                <a href="sobre.html" class="btn-outline">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="servicos" class="section services reveal">
+            <div class="container">
+                <h2>Serviços</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Criação de Sites</h3>
+                        <p>Desenvolvimento de sites modernos, responsivos e otimizados para SEO, alinhados à identidade da sua marca.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Chatbots Inteligentes</h3>
+                        <p>Soluções de automação de atendimento com inteligência artificial, integradas ao WhatsApp, Instagram e outros canais.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Suporte Técnico</h3>
+                        <p>Equipe disponível para suporte remoto e presencial, garantindo o funcionamento dos sistemas e infraestrutura.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Consultoria em TI</h3>
+                        <p>Avaliação e planejamento estratégico para melhorar processos, reduzir custos e aumentar a produtividade da sua empresa.</p>
+                    </div>
+                </div>
+                <a href="servicos.html" class="btn-outline">Ver Todos os Serviços</a>
+            </div>
+        </section>
+
+        <section class="section testimonials reveal">
+            <div class="container">
+                <h2>Depoimentos</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <p>"A JC Tecnologia transformou nosso site e ampliou nossa presença online. Equipe profissional e dedicada!"</p>
+                        <span>- Fernanda Silva, empresária</span>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Excelente serviço de suporte técnico, sempre prontos para resolver nossos problemas de TI."</p>
+                        <span>- Carlos Andrade, gerente de vendas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta reveal">
+            <div class="container">
+                <h2>Pronto para Levar Seu Negócio ao Próximo Nível?</h2>
+                <p>Entre em contato conosco para discutir suas necessidades de TI e descobrir como podemos ajudar.</p>
+                <a href="contato.html" class="btn-primary">Fale Conosco</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 JC Tecnologia da Informação. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
