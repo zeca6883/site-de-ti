@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre Nós - JC Tecnologia da Informação</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - JC Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 <header>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="servicos.html">Serviços</a>
-    <a href="contato.html">Contato</a>
-  </nav>
+    <div class="container">
+        <h1 class="logo"><a href="index.html">JC Tecnologia</a></h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html" class="active">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </div>
 </header>
-<section class="hero">
-  <h1>Sobre Nós</h1>
-  <p>10 anos transformando negócios com tecnologia.</p>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Nossa História</h2>
-    <p>Combinamos paixão por tecnologia com expertise em desenvolvimento web, infraestrutura e consultoria. Desde nossa fundação, ajudamos empresas a modernizar suas operações e criar experiências digitais de alta performance.</p>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Missão, Visão e Valores</h2>
-    <p><strong>Missão:</strong> Capacitar negócios através de soluções digitais de qualidade, eficiência e segurança.</p>
-    <p><strong>Visão:</strong> Ser referência em soluções tecnológicas inovadoras, contribuindo para o crescimento sustentável de nossos clientes.</p>
-    <p><strong>Valores:</strong> Compromisso com a excelência, transparência e relacionamento de confiança.</p>
-  </div>
-</section>
-<footer class="footer">
-  <p>&copy; 2026 JC Tecnologia da Informação. Todos os direitos reservados.</p>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Transformamos negócios com soluções de tecnologia e inovação.</p>
+        </div>
+    </section>
+
+    <section class="section about-section">
+        <div class="container">
+            <h2>Nossa História</h2>
+            <p>Com mais de 10 anos de experiência, combinamos paixão por tecnologia com expertise em desenvolvimento web, infraestrutura e consultoria, ajudando empresas a alcançarem seu potencial máximo.</p>
+            <h2>Missão, Visão e Valores</h2>
+            <div class="grid">
+                <div class="card reveal">
+                    <h3>Missão</h3>
+                    <p>Proporcionar inovação tecnológica acessível, ajudando empresas a crescer com soluções sob medida.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Visão</h3>
+                    <p>Ser referência em tecnologia e inovação, contribuindo para o sucesso dos nossos clientes.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Valores</h3>
+                    <p>Excelência, transparência, parceria e compromisso com resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para elevar seu negócio?</h2>
+            <p>Entre em contato conosco para iniciar a transformação digital da sua empresa.</p>
+            <a href="contato.html" class="btn-primary">Fale Conosco</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 JC Tecnologia. Todos os direitos reservados.</p>
+    </div>
 </footer>
 </body>
 </html>
