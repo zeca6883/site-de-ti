@@ -1,49 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços - JC Tecnologia da Informação</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - JC Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 <header>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="servicos.html">Serviços</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-</header>
-<section class="hero">
-  <h1>Serviços</h1>
-  <p>Oferecemos soluções completas de TI para alavancar o seu negócio.</p>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Serviços</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Criação de Sites Premium</h3>
-        <p>Desenvolvemos sites modernos, responsivos e otimizados para SEO, alinhados à identidade da sua marca.</p>
-      </div>
-      <div class="card">
-        <h3>Chatbots Inteligentes</h3>
-        <p>Integramos bots com inteligência artificial para atendimento automatizado e humanizado em canais de mensagem.</p>
-      </div>
-      <div class="card">
-        <h3>Suporte Técnico</h3>
-        <p>Oferecemos suporte de TI, monitoramento de sistemas e serviços em nuvem para manter sua operação ativa e segura.</p>
-      </div>
-      <div class="card">
-        <h3>Consultoria em TI</h3>
-        <p>Analisamos o seu negócio e propomos soluções tecnológicas estratégicas para melhorar processos e resultados.</p>
-      </div>
+    <div class="container">
+        <h1 class="logo"><a href="index.html">JC Tecnologia</a></h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html" class="active">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
     </div>
-  </div>
-</section>
-<footer class="footer">
-  <p>&copy; 2026 JC Tecnologia da Informação. Todos os direitos reservados.</p>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h2>Nossos Serviços de TI</h2>
+            <p>Solucionamos problemas de tecnologia com soluções personalizadas para o seu negócio.</p>
+        </div>
+    </section>
+
+    <section class="section services-section">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="grid">
+                <div class="card reveal">
+                    <h3>Criação de Sites Premium</h3>
+                    <p>Sites modernos, responsivos e otimizados para SEO, alinhados à identidade da sua marca.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Chatbots Inteligentes</h3>
+                    <p>Soluções de atendimento automatizado via WhatsApp para melhorar a experiência do cliente.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Suporte Técnico</h3>
+                    <p>Manutenção preventiva, corretiva e suporte remoto para garantir a saúde da sua TI.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Consultoria em TI</h3>
+                    <p>Planejamento e implementação de projetos de tecnologia, infraestrutura e segurança.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Quer impulsionar seu negócio com soluções de TI? Fale com a gente agora mesmo.</p>
+            <a href="contato.html" class="btn-primary">Fale Conosco</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 JC Tecnologia. Todos os direitos reservados.</p>
+    </div>
 </footer>
 </body>
 </html>
